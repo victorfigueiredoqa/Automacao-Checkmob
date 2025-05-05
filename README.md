@@ -1,3 +1,3 @@
-Automatizei a pesquisa de artigos que fica no menu de ajuda na parte superior do site, demonstrando uma pesquisa pela palavra “Clientes” e validando o resultado encontrado.
+Automatizei a pesquisa de artigos que fica no menu de ajuda na parte inferior do site, demonstrando uma pesquisa pela palavra “Clientes” e validando o resultado encontrado.
 Também fiz automação do formulário de contato, parcial, a fim de não submeter o fluxo de cadastro com sucesso e não poluir com massa de teste, por ser em ambiente real do site. Para tanto, fiz a automação do preenchimento de todo o formulário com informações válidas.
 Tomei esta iniciativa para mostrar que estou empenhado em adquirir conhecimento em automação de testes e colocar em prática. Espero que tenham gostado, obviamente é apenas uma versão para demonstrar meu conhecimento.
