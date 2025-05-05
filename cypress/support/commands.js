@@ -16,15 +16,5 @@ Cypress.Commands.add('preencherFormularioContato', () => {
         .click({ force: true });
     cy.get('#LEGAL_CONSENT\\.subscription_type_39630737-b40d7ad9-6959-4d0c-84fa-808a2be67fb9')
         .click({ force: true })
-
-    // Comando para submeter o formulário preenchendo apenas o campo opcional
-    Cypress.Commands.add('validarCamposObrigatorios', () => {
-        
-        cy.get('#LEGAL_CONSENT\\.subscription_type_39630737-b40d7ad9-6959-4d0c-84fa-808a2be67fb9')
-            .click({ force: true })
-
-        cy.get('input[type="submit"][value="Enviar"]').click();
-        cy.get('.hs-error-msg')
-        
-    })
 })
+
